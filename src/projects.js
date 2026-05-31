@@ -48,6 +48,23 @@ function getPreviewHTML(type) {
           <span class="anim-pill">Commercials</span>
         </div>
       </div>`,
+    data: `
+      <div class="data-mock">
+        <div class="data-nav">
+          <div class="data-logo">DATAPLUS</div>
+          <div class="data-nav-links">
+            <span>Infrastructure</span>
+            <span>Security</span>
+            <span>Solutions</span>
+          </div>
+        </div>
+        <div class="data-badge">INTELLIGENCE PROTOCOL V2.4.0 ACTIVE</div>
+        <div class="data-title">Architectural<br><span class="data-highlight">Intelligence.</span></div>
+        <div class="data-btns">
+          <span class="data-btn-primary">Deploy Environment</span>
+          <span class="data-btn-secondary">View Documentation</span>
+        </div>
+      </div>`,
   };
   return previews[type] || '';
 }

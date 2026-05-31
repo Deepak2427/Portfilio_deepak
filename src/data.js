@@ -6,9 +6,9 @@ export const PORTFOLIO = {
   },
 
   stats: [
-    { value: '3+', label: 'Projects delivered' },
+    { value: '4+', label: 'Projects delivered' },
     { value: '100%', label: 'Client satisfaction' },
-    { value: '3', label: 'Industries covered' },
+    { value: '4', label: 'Industries covered' },
     { value: '24h', label: 'Response time' },
   ],
 
@@ -83,6 +83,26 @@ export const PORTFOLIO = {
       ],
       liveUrl: '#',
       filter: 'frontend',
+    },
+    {
+      id: 'data',
+      title: 'DataPlus',
+      category: 'Data / SaaS',
+      catColor: 'rgba(0,229,255,.14)',
+      catText: '#00e5ff',
+      preview: 'data',
+      description:
+        'Precision-engineered data infrastructure portal for orchestrating complex data environments. Synthesizes market telemetry into actionable insights with an advanced neural dashboard.',
+      stack: ['Next.js', 'React', 'Tailwind CSS', 'Node.js', 'REST APIs', 'Chart.js'],
+      features: [
+        'Architectural intelligence dashboard with real-time metrics',
+        'Multi-environment deployment orchestration',
+        'Security protocol monitoring and threat analysis',
+        'Neural data pipeline visualization',
+        'Modular infrastructure component system',
+      ],
+      liveUrl: 'https://studio-vert-mu-18.vercel.app/',
+      filter: 'fullstack',
     },
   ],
 };
