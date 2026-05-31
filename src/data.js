@@ -61,7 +61,7 @@ export const PORTFOLIO = {
         'One-click PDF report generation',
         'Scorecard dashboard with watchlist tracking',
       ],
-      liveUrl: '#',
+      liveUrl: 'https://stock-what-you-want.vercel.app/',
       filter: 'fullstack',
     },
     {
